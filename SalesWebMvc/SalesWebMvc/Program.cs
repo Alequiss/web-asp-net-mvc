@@ -12,6 +12,7 @@ namespace SalesWebMvc
 {
     public class Program
     {
+        // Connection string = Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ProjectDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
